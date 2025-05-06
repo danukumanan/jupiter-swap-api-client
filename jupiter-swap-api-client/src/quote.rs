@@ -200,7 +200,7 @@ pub struct PlatformFee {
     pub fee_bps: u8,
 }
 
-#[derive(Serialize, Deserialize, Clone, Debug)]
+#[derive(Serialize, Deserialize, Clone, Debug, Default)]
 #[serde(rename_all = "camelCase")]
 pub struct QuoteResponse {
     #[serde(with = "field_as_string")]
