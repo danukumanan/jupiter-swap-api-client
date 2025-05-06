@@ -7,5 +7,5 @@ edition = "2021"
 [workspace.dependencies]
 solana-sdk = "~2.0"
 solana-client = "~2.0"
-solana-account-decoder = "=1.18.26"
-spl-token = "=4.0.0"
+solana-account-decoder = "~2.0"
+spl-token = "=4.0.1"
